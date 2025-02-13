@@ -1,6 +1,5 @@
 print("welcome to the movie cinema! ")
-age = int(input("please insert your age "))
-bill = 0 
+age = int(input("please insert your age ")) 
 
 if age <= 10:
     print("ticket price is 3$ ")
