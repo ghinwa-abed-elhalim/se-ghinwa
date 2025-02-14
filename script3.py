@@ -1,4 +1,6 @@
 print ("hello there! ")
 username = input("username: ")
-password = int(input("password: "))
+password = input("password: ")
 
+if username == "admin" and password == 1234:
+    print("access granted ")
